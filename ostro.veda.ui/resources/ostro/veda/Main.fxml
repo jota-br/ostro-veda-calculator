@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="ostro.veda.ControllerMain">
+
+    <top>
+        <VBox fx:id="topVbox">
+
+        </VBox>
+    </top>
+    <right>
+        <VBox fx:id="rightVbox">
+
+        </VBox>
+    </right>
+    <center>
+        <VBox fx:id="centerVbox">
+
+        </VBox>
+    </center>
+    <bottom>
+        <VBox fx:id="bottomVbox">
+
+        </VBox>
+    </bottom>
+    <left>
+        <VBox fx:id="leftVbox">
+
+        </VBox>
+    </left>
+</BorderPane>

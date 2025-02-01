@@ -1,0 +1,3 @@
+module ostro.veda.services {
+
+}
