@@ -1,4 +1,4 @@
-package ostro.veda;
+package ostro.veda.ui;
 
 public class ControllerCalculatorSimple {
 

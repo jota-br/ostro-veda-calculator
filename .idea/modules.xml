@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ostro-veda-calculator.iml" filepath="$PROJECT_DIR$/ostro-veda-calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ostro.veda.services/ostro.veda.services.iml" filepath="$PROJECT_DIR$/ostro.veda.services/ostro.veda.services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ostro.veda.ui/ostro.veda.ui.iml" filepath="$PROJECT_DIR$/ostro.veda.ui/ostro.veda.ui.iml" />
     </modules>
   </component>
 </project>

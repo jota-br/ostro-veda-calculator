@@ -1,5 +1,7 @@
 module ostro.veda.ui {
+    requires javafx.controls;
     requires javafx.fxml;
-    requires javafx.graphics;
-    requires logger;
+
+    opens ostro.veda.ui to javafx.fxml;
+    exports ostro.veda.ui;
 }

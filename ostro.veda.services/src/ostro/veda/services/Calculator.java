@@ -1,4 +1,4 @@
-package ostro.veda;
+package ostro.veda.services;
 
 import java.util.ArrayList;
 import java.util.Arrays;

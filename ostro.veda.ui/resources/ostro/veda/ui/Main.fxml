@@ -8,7 +8,7 @@
 
 <BorderPane xmlns="http://javafx.com/javafx"
             xmlns:fx="http://javafx.com/fxml"
-            fx:controller="ostro.veda.ControllerMain">
+            fx:controller="ostro.veda.ui.ControllerMain">
 
     <top>
         <VBox fx:id="topVbox">

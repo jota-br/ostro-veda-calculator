@@ -1,4 +1,4 @@
-package ostro.veda;
+package ostro.veda.ui;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -14,15 +14,14 @@ public class Main extends Application {
     @Override
     public void start(Stage stage) throws Exception {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("Main.fxml"));
-        Scene scene = new Scene(loader.load());
+        Scene scene = new Scene(loader.load(), 600, 500);
 
         ControllerMain controller = loader.getController();
 
-        var calcController = controller.createController("CalculatorSimple.fxml");
-        controller.updateCenter("CalculatorSimple.fxml", calcController);
+        controller.updateCenter("CalculatorSimple.fxml");
+        stage.setMaximized(false);
 
-        stage.setMaximized(true);
-
+        stage.setScene(scene);
         stage.show();
     }
 

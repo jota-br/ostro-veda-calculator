@@ -1,4 +1,4 @@
-package ostro.veda;
+package ostro.veda.ui;
 
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -26,18 +26,12 @@ public class ControllerMain {
     @FXML
     private VBox leftVbox;
 
-    public <T> T createController (String fxml) {
-
-        FXMLLoader loader = new FXMLLoader(getClass().getResource(fxml));
-        return loader.getController();
-    }
-
     @FXML
-    public <T> void updateCenter(String fxml, T controller) {
+    public <T> void updateCenter(String fxml) {
         try {
 
             FXMLLoader loader = new FXMLLoader(getClass().getResource(fxml));
-            loader.setController(controller);
+            loader.setController(this);
 
             Node newContent = loader.load();
             centerVbox.getChildren().clear();
