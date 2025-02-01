@@ -1,1 +1,0 @@
-# ostro-veda-calculator
