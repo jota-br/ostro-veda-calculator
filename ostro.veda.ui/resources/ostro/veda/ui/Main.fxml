@@ -11,7 +11,7 @@
             fx:controller="ostro.veda.ui.ControllerMain">
 
     <top>
-        <VBox fx:id="topVbox">
+        <VBox fx:id="topVbox" alignment="CENTER">
 
         </VBox>
     </top>
@@ -21,9 +21,11 @@
         </VBox>
     </right>
     <center>
-        <VBox fx:id="centerVbox">
+        <HBox alignment="CENTER">
+            <VBox fx:id="centerVbox">
 
-        </VBox>
+            </VBox>
+        </HBox>
     </center>
     <bottom>
         <VBox fx:id="bottomVbox">

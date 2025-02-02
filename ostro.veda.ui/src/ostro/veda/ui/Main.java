@@ -19,6 +19,7 @@ public class Main extends Application {
         ControllerMain controller = loader.getController();
 
         controller.updateCenter("CalculatorSimple.fxml");
+        controller.setButtonAction();
         stage.setMaximized(false);
 
         stage.setScene(scene);
